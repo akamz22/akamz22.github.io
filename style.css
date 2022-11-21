@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    align-items: center;
+    height: 4vmax;
+    display: flex;
+    box-shadow: 0 0 10px rgb(82, 77, 77);
+    position: fixed;
+    top: 0;
+    background-color: rgb(37, 35, 35);
+    z-index: 1000;
+    width: 100%;
+}
+
+.card-sec {
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.card {
+    /* margin-top: 20px; */
+    display: flex;
+    margin: 25px;
+    width: 30%;
+    float: left;
+    box-shadow: 10px 12px 25px 0 #c9baba;
+    padding-bottom: 10px;
+    /* padding: 0%; */
+}
+
+.card:hover {
+    box-shadow: 10px 12px 25px 0 #716363;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: auto;
+    padding: 15px 7;
+}
+
+.prof {
+    color: white;
+}
+
+.profile {
+    display: flex;
+    background-color: #1266f1;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    order: 2;
+}
+
+.profile:hover {
+    background-color: #fff;
+    color: #1266f1;
+    transition: all 0.3sec ease-in-out;
+    font-weight: bold;
+}
+
+.profile:hover .prof {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(21, 20, 20);
+}
+
+#headertxt {
+    font-size: 20px;
+    color: white;
+}
